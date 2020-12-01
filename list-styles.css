@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    color: white;
+
+    background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/458365-Magic_The_Gathering-Trading_Card_Games-simple-minimalism-black_background.jpg");
+    background-size: 100;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+a:link{
+
+    color: green;
+}
+a:hover{
+    color: pink;
+}
+a:visited{
+    color: green;
+}
+h1{
+    color: red; 
+}
+h2,h3{
+    color: green
+}
+ol{
+    list-style: numbers;
+}
+ul{
+    list-style: square;
+}
