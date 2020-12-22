@@ -11,19 +11,22 @@ body{
 }
 a:link{
 
-    color: green;
+    color: #efff00;
 }
 a:hover{
     color: pink;
 }
 a:visited{
-    color: green;
+    color: #efff00;
 }
 h1{
     color: red; 
 }
 h2,h3{
-    color: green
+    color: #efff00
+}
+p{
+    font-size: larger;
 }
 ol{
     list-style: numbers;
