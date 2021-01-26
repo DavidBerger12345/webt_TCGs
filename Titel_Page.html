@@ -5,82 +5,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="list-styles.css">
+  <link rel="stylesheet" href="video.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .topnav {
-      overflow: hidden;
-      background-color: rgb(27, 155, 123);
-    }
-
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    .topnav a.active {
-      background-color: #080808;
-      color: white;
-    }
-  </style>
+  
 </head>
 
 <body>
-
   <div class="topnav">
     <a class="active" href="Titel_Page.html">Titel Page</a>
     <a href="first.html"> What even is a TCG?</a>
     <a href="second.html">how to play a TCG (Yu-Gi-Oh!)</a>
     <a href="third.html">Trading Card Games & money</a>
-    <a href="fourth.html">How TCGs came along</a>
+    <a href="fourth.html">Popularity and impact</a>
   </div>
 
-  <div style="padding-left:16px">
-    <h1>Trading Card Games</h1>
-    
-    
-    <img src="https://i0.wp.com/www.topgamingnews.de/wp-content/uploads/2020/01/Yu-gi-oh-tcg.png?fit=800%2C450&ssl=1&resize=1280%2C720" alt="Yu-gi-oh-tcg" width="300" height="150">
+  <div id="shadowBox">
+    <h3 class="rainbow">Trading Card Games</h3>
+  </div>
+
+    <img src="https://images1.wikia.nocookie.net/__cb20110626151241/yugioh/images/8/8d/Yu-Gi-Oh!_TCG_new_logo.jpg" alt="Yu-gi-oh-tcg" width="309" height="120">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Magicthegathering-logo.svg/2000px-Magicthegathering-logo.svg.png" alt="Magicthegathering-logo" width="300" height="100">
     <img src="https://images-na.ssl-images-amazon.com/images/I/41LT3Wbe-2L._AC_.jpg" alt="pokemon-logo" width="170" height="230">
-    <img src="https://static.giga.de/wp-content/uploads/2015/05/hearthstone3.jpg" alt="hearthstone" width="480" height="270">
+    <img src="https://static.giga.de/wp-content/uploads/2015/05/hearthstone3.jpg" alt="hearthstone" width="360" height="240">
 
+    <p>Pokemon Opening</p>
     <div class="row parent-container"></div>
     <div class="w100 video-container"> </div>
-      <video autoplay loop muted width="800" id="Yu-Gi-Oh-opening">
-        <source id="yugioh_mp4" src="Yu-Gi-Oh_Duel_Monsters_Openin_Theme.mp4" type="video/mp4">
-      </video>
-  
-      <audio src="Yu-Gi-Oh_Duel_Monsters_Openin_Theme_Backround_Music.mp3" controls>
-        <p>If you are reading this, it is because your browser does not support the audio element</p>
-        </audio>
+    <video autoplay loop muted   width="280" id="Pokemon-Opening">
+    <source id="pokemon_mp4" src="Pokemon_Theme_Song_Music_Video.mp4" type="video/mp4">
+    </video>
 
-      <div class="row parent-container"></div>
+    <audio src="Pokemon_Theme_Song_Backround_Music.mp3" controls>
+    <p>If you are reading this, it is because your browser does not support the audio element</p>
+    </audio>
+
+    <p>Yu-Gi-Oh Opening</p>
+    <div class="row parent-container"></div>
     <div class="w100 video-container"> </div>
-      <video autoplay loop muted   width="800" id="Pokemon-Opening">
-        <source id="pokemon_mp4" src="Pokemon_Theme_Song_Music_Video.mp4" type="video/mp4">
-      </video>
-
-      <audio src="Pokemon_Theme_Song_Backround_Music.mp3" controls>
-        <p>If you are reading this, it is because your browser does not support the audio element</p>
-        </audio>
-
-       
-  </div>
-
+    <video autoplay loop muted   width="280" id="Yugioh-Opening">
+    <source id="yugioh.mp4" src="Yu-Gi-Oh_Duel_Monsters_Openin_Theme.mp4" type="video/mp4">
+    </video>
+    
+    <audio src="Yu-Gi-Oh_Duel_Monsters_Openin_Theme_Backround_Music.mp3" controls>
+    <p>If you are reading this, it is because your browser does not support the audio element</p>
+    </audio>
+  
 </body>
-
 </html>

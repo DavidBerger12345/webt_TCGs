@@ -1,13 +1,92 @@
-body{
-    font-family: sans-serif;
-    color: white;
 
-    background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/458365-Magic_The_Gathering-Trading_Card_Games-simple-minimalism-black_background.jpg");
-    background-size: 100;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  font-family: sans-serif;
+  color: white;
 
+  background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/458365-Magic_The_Gathering-Trading_Card_Games-simple-minimalism-black_background.jpg");
+  background-size: 100;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+img{
+  float:none;
+}
+audio{
+  float:none;
+}
+#shadowBox {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  border: 3px transparent
+}
+.moneyCars{
+  float: right;
+}
+.rainbow {
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: monospace;
+  letter-spacing: 5px;
+  animation: colorRotate 6s linear 0s infinite;
+}
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  30% {
+    color: #00ff00;
+  }
+  50% {
+    color: #ff3399;
+  }
+  70% {
+    color: orange;
+  }
+  90% {
+    color: red;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(27, 155, 123);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #080808;
+  color: white;
 }
 a:link{
 
@@ -17,7 +96,7 @@ a:hover{
     color: darkblue;
 }
 a:visited{
-    color: #efff00;
+    color: white
 }
 h1{
     color: red; 
